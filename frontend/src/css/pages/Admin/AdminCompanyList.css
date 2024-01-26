@@ -1,0 +1,94 @@
+.Admin_CompanyaSerch-flex{
+    display: flex;
+}
+.Admin_CompanyaSerch-card-flex{
+    display: flex;
+    /* margin-left: 70px;
+    margin-top: 50px; */
+    width: 85%;
+    /* padding-left: 230px; */
+    margin: 50px 45px 0px 300px;
+}
+
+.Admin_CompanyaSerch_all_cards{
+    margin: 0 35px 0 35px;
+}
+
+.card_text_font{
+    font-size: 15px;
+    margin: 11px 0 24px 10px;
+}
+
+.Admin_CompanyaSerch_all_cards .css-q57pnn-MuiGrid-root .MuiGrid-item{
+    padding-left: 142px;
+    padding-right: 215px;
+}
+
+.Admin_CompanyaSerch-phone2{
+    display: none;
+}
+.Admin_application_form_button_serch div button{
+    border-radius:50%; 
+    height: 60px;
+};
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 1024px) {
+	/* 1024px以下に適用されるCSS（タブレット用） */
+    .Admin_CompanyaSerch-flex{
+        display: flex;
+    }
+    .Admin_CompanyaSerch-card-flex{
+        display: flex;
+        /* margin-left: 70px;
+        margin-top: 50px; */
+        width: 85%;
+        /* padding-left: 230px; */
+        margin: 50px 45px 0px 300px;
+    }
+    
+    .Admin_CompanyaSerch_all_cards{
+        margin: 0 35px 0 35px;
+    }
+    
+    .card_text_font{
+        font-size: 15px;
+        margin: 11px 0 24px 10px;
+    }
+
+    .Admin_CompanyaSerch_all_cards .css-q57pnn-MuiGrid-root .MuiGrid-item{
+        padding: 71px 7px 0 45px;
+    }
+    .Admin_application_form_button_serch{
+        position:fixed;
+        right:0%;
+        margin-right: 20px;
+        bottom: 30px !important;
+    }
+
+}
+.Admin_application_form_button_serch{
+    position:fixed;
+    right:0%;
+    margin-right: 20px;
+    bottom: 145px;
+}
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    .Admin_CompanyaSerch-phone{
+        display: none;
+    }
+
+    .Admin_CompanyaSerch-phone2{
+        display:block;
+    }
+    
+    .Admin_CompanyaSerch-card-flex {
+        display: flex;
+        width: 85%;
+        /* padding-left: 230px; */
+        margin: 66px 50px 0px -5px;
+    }
+}

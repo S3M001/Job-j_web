@@ -1,0 +1,9 @@
+.DeadLine_p{
+    color: white;
+    background-color: red;
+    width: 33px;
+    border-radius: 11px;
+    font-size: 15px;
+    padding-left: 7px;
+    padding-right: 4px;
+}

@@ -1,0 +1,10 @@
+.CalenderText{
+    width: 98%;
+    height: 90px
+}
+.Calender_textarea{
+    resize: none;
+    width: 99%;
+    height: 100px;
+    margin: 0 0 10px 0;
+}

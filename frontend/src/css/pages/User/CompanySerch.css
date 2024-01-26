@@ -1,0 +1,129 @@
+.CompanyaSerch-flex{
+    display: flex;
+}
+.CompanyaSerch-card-flex{
+    display: flex;
+    /* margin-left: 70px;
+    margin-top: 50px; */
+    width: 85%;
+    /* padding-left: 230px; */
+    margin: 50px 45px 0px 300px;
+}
+
+.CompanyaSerch_all_cards{
+    margin: 0 35px 0 35px;
+}
+
+.card_text_font{
+    font-size: 15px;
+    margin: 11px 0 24px 10px;
+}
+
+.CompanyaSerch_all_cards .css-q57pnn-MuiGrid-root .MuiGrid-item{
+    padding-left: 142px;
+    padding-right: 215px;
+}
+
+.CompanyaSerch-phone2{
+    display: none;
+}
+
+.CompanyaSerch-Icon{
+    position: absolute;
+    right: 46px;
+    top: 82px;
+}
+.header-heart{
+    width: 35px;
+    font-size: 19px;
+    background-color: #fff;
+    /* margin-left: 40px; */
+    border-style: none;
+    margin-top: 5.5px;
+    display: block;
+}
+
+.CompanyaSerch-Icon{
+    display: flex;
+    align-items: center;
+}
+
+.CompanyaSerch_button{
+    margin: -51px -50px 30px 0;
+    position: fixed;
+    right: 50px; /* 基準の位置を画面の一番右に指定する */
+}
+
+/* .CompanyaSerch-ApplyCom .css-7dv1rb-MuiButtonBase-root-MuiFab-root-MuiSpeedDial-fab {
+    position: fixed;
+    right: 17px;
+} */
+
+.application_form_button_serch{
+    position:fixed;
+    right:0%;
+    margin-right: 20px;
+    bottom: 30px;
+}
+
+.copyright_footer{
+    bottom: 50px;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 1024px) {
+	/* 1024px以下に適用されるCSS（タブレット用） */
+    .CompanyaSerch-flex{
+        display: flex;
+    }
+    .CompanyaSerch-card-flex{
+        display: flex;
+        /* margin-left: 70px;
+        margin-top: 50px; */
+        width: 85%;
+        /* padding-left: 230px; */
+        margin: 50px 45px 0px 300px;
+    }
+    
+    .CompanyaSerch_all_cards{
+        margin: 0 35px 0 35px;
+    }
+    
+    .card_text_font{
+        font-size: 15px;
+        margin: 11px 0 24px 10px;
+    }
+
+    .CompanyaSerch_all_cards .css-q57pnn-MuiGrid-root .MuiGrid-item{
+        padding: 71px 7px 0 22px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    .CompanyaSerch-phone{
+        display: none;
+    }
+
+    .CompanyaSerch-phone2{
+        display:block;
+    }
+    
+    .CompanyaSerch-card-flex {
+        display: flex;
+        width: 92%;
+        /* padding-left: 230px; */
+        margin: 66px 48px 0px 21px;
+    }
+
+    .CompanyaSerch_button{
+        margin: -70px -50px 30px 0;
+        position: fixed;
+        right: 50px;
+    }
+}

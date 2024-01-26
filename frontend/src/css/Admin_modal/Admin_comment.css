@@ -1,0 +1,45 @@
+.Admin_comment_button{
+    width: 145px;
+}
+
+.Admin_comment_button_h5{
+    margin: 0 0 0 0;
+}
+
+.Admin_comment_title{
+    margin: 0 0 0 0;
+}
+
+.Admin_comment_textarea{
+    width: 500px;
+    height: 150px;
+    resize: none;
+}
+
+.Admin_comment_right{
+    text-align: right;
+    margin: -20px 15px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+	/* 1024px以下に適用されるCSS（タブレット用） */
+
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 480px) {
+    .Admin_comment_textarea {
+        width: 270px;
+        height: 102px;
+        resize: none;
+    }
+
+    .Admin_comment_right {
+        text-align: right;
+        margin: -18px 15px 0 0;
+    }
+}
+

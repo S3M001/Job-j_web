@@ -1,0 +1,140 @@
+.report_text{
+    margin: 0 40px 0 0;
+}
+
+.report_text_num{
+    width: 70px;
+    margin: 0 -1px 0 -1px;
+}
+
+.report_text_name{
+    margin: 0 0 -5px 0;
+}
+
+
+.report_text_post{
+    width: 119px;
+}
+
+.report_text_form {
+    width: 160px;
+    margin: 0 0 0 0;
+}
+
+.report_textarea{
+    width: 527px;
+    height: 40px;
+    resize: none;
+    margin: -24px 0 0 0;
+}
+
+.report_margin{
+    margin: 15px 0 22px 0;
+}
+
+.report_margin2{
+    margin: -15px 100px 0 0 ;
+}
+
+.report_margin3{
+    margin: 20px 0 2px 0;
+}
+
+.report_margin4{
+    margin: -15px 0 0 0 ;
+}
+
+.reoprt_select{
+    margin: 0 0 0 0;
+}
+
+.report_textarea2{
+    width: 324px;
+    height: 28px;
+    resize: none;
+    margin: 0 0 15px 0;
+}
+
+.report_label_none1{
+    margin: 0 0 0 20px;
+}
+
+.report_label_none2{
+    display: none;
+}
+
+.report_button_center{
+    margin: -15px 0 -20px 0;
+}
+
+.report_button_ok{
+    width: 190px;
+    height: 35px;
+}
+
+@media screen and (max-width: 1024px) {
+	/* 1024px以下に適用されるCSS（タブレット用） */
+
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 480px) {
+    .report_text_form {
+        width: 120px;
+        margin: 0px 30px 0 0;
+    }
+
+    .report_label_none1{
+        display: none;
+    }
+
+    .report_label_none2{
+        display: block;
+    }
+
+    .report_text_name2{
+        margin: 14px 0 -5px 0;
+    }
+
+    .report_textarea {
+        width: 275px;
+        height: 40px;
+        resize: none;
+        margin: -26px 0 0 0;
+    }
+
+    .report_margin5{
+        margin: 0 0 0 0;
+    }
+    
+
+    .report_margin2 {
+        margin: -15px 52px 0 0;
+    }
+
+    .report_textarea2 {
+        width: 120px;
+        height: 28px;
+        resize: none;
+    }
+
+    .report_text_num {
+        width: 70px
+    }
+
+    .report_text {
+        margin: 0px 0px 0 0;
+    }
+
+    .report_button_ok{
+        width: 190px;
+        height: 35px;
+    }
+
+    .report_button_center{
+        margin: -13px 0 -20px 0;
+    }
+}

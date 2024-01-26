@@ -1,0 +1,7 @@
+.Router-navgate li{
+    list-style: none;
+}
+.Router-navgate{
+    display: flex;
+    justify-content: space-between
+}

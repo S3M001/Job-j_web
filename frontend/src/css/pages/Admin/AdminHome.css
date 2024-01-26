@@ -1,0 +1,76 @@
+.Admin_HomePage_msgFlex a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.Admin_HomePage_main{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-top: 10px;
+}
+
+.Admin_HomePage_scheduler{
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.Admin_HomePage_sideVar{
+    width: 25%;
+    padding-left: 18px;
+}
+
+.Admin_HomePage_msgFlex p{
+    margin:3px;
+}
+
+.Admin_HomePage_msgBox{
+    border: 3px;
+}
+
+.Admin_HomePage_p{
+    color: black;
+}
+
+.Admin_HomePage_dashboard{
+    margin-top: 35px;
+    margin-left: 0px;
+}
+
+.Adimin_HomePage_sideVar{
+    margin-left: 21px;
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .Admin_HomePage_main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        margin-top: 10px;
+    }
+    .Admin_HomePage_scheduler {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .TopVarUser-Title{
+        margin-left: -3px;
+        font-size: 13px;
+        margin-top: 25px;
+    }
+    .Adimin_HomePage_sideVar{
+
+        width: 100%;
+        padding-left: 18px;
+    }
+    
+}

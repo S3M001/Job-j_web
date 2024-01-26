@@ -1,0 +1,5 @@
+/Servers/
+/.metadata/
+/.vscode/
+backend/src/main/resources/application.properties
+/demo/

@@ -1,0 +1,194 @@
+.TopVarUser-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: #d0d0d094;
+    color: rgb(0, 0, 0);
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(30, 30, 80, .3);
+    /* left:0; */
+    line-height: 1;
+    position: fixed;
+    /* top:0;
+    width:100%; */
+
+    z-index: 1000;
+
+    /* text-align:center; */
+    padding: 0.2rem;
+}
+
+.TopVarUser-nav ul {
+    display: flex;
+}
+
+.TopVarUser-nav li {
+    list-style: none;
+}
+
+.TopVarUser-nav li a {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TopVarUser-nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 18px;
+    font-size: 10px;
+}
+
+.TopVarUser-TitleFlex {
+    display: flex;
+}
+
+.TopVarUser-Title {
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.TopVarUser-AppName {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.TopVarUser-TitleFlex a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 18px;
+    font-size: 10px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburgerBox {
+    width: 250px;
+}
+
+.hambugerButton {
+    height: 100px;
+    text-decoration: none;
+    display: flex !important;
+    font-weight: bold;
+    border-bottom: solid 1px #000000;
+    border-top: solid 1px #000000;
+}
+
+.hambugerText {
+    color: black;
+}
+
+.TopVarUser-Hanburger-Job√j {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 18px;
+    font-size: 20px;
+}
+
+
+.TopVarUser-Job√j {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 18px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+.TopVarUser-AppNamer-Title {
+    font-size: 20px;
+}
+
+a {
+    color: black;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none !important;
+    opacity: 0.5 ;
+    color: black;
+}
+
+.TopVarUser-border企業申請 {
+    background-color: #9494ff;
+    height: 4px;
+    width: 47px;
+    position: absolute;
+    right: 196px;
+    top: 53px;
+}
+
+.TopVarUser-borderカレンダー {
+    background-color: #9494ff;
+    height: 4px;
+    width: 47px;
+    position: absolute;
+    right: 135px;
+    top: 53px;
+}
+
+.TopVarUser-borderダッシュボード {
+    background-color: #9494ff;
+    height: 4px;
+    width: 47px;
+    position: absolute;
+    right: 76px;
+    top: 53px;
+}
+
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    .TopVarUser-AppNamer-Title {
+        font-size: 19px;
+    }
+
+    .TopVarUserDelete {
+        display: none !important;
+    }
+
+    .hamburger {
+        display: block !important;
+    }
+
+    .TopVarUser-nav a {
+        display: block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        margin-right: 9px;
+        font-size: 9px;
+    }
+
+    .TopVarUser-Job√j {
+        display: none !important;
+    }
+.TopVarUser-border企業申請 {
+    display: none;
+}
+.TopVarUser-borderカレンダー {
+    display: none;
+}
+
+.TopVarUser-borderダッシュボード {
+    display: none;
+}
+}

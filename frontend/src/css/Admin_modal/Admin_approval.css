@@ -1,0 +1,235 @@
+.Admin_approval_width{
+    width:600px;
+    overflow-x: hidden;
+}
+
+.Admin_approval_modal_button{
+    width: 150px;
+    color: black;
+}
+
+.Admin_approval_titles{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: -15px 0 -15px 0px;
+}
+
+.Admin_approval_title{
+    margin: 0px 0 -10px 0;
+}
+
+.Admin_approval_title_now1{
+    margin: 0 90px 0 20px ;
+}
+
+.Admin_approval_title_now2{
+    height: 20px;
+    width: 55px;
+    text-align: center;
+    background-color: 	#5BFF7F;
+    border-radius: 20px;
+    color:white;
+}
+
+.Admin_approval_card{
+    margin: 15px auto; 
+    padding: 20px;
+}
+
+.Admin_approval_card_hrs{
+    margin: 20px 0 -15px 0;
+}
+
+.Admin_approval_top{
+    margin: -35px 0 -15px 0;
+}
+
+.Admin_approval_card_title{
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.Admin_approval_card_texts{
+    display: flex;
+}
+
+.Admin_approval_card_text0{
+    margin: 5px 0 -2px 0;
+    padding-right: 118px;
+}
+
+.Admin_approval_card_text1{
+    margin: 5px 0 -2px 0;
+    padding-right: 126px;
+}
+
+.Admin_approval_card_text{
+    margin: 5px 0 -2px 0;
+    width: 34.5%;
+}
+
+.Admin_approval_card_text2{
+    margin: 5px 0 -2px 0;
+    padding-right: 113px;
+}
+
+.Admin_approval_card_text3{
+    margin: 5px 0 -2px 0;
+}
+
+.Admin_approval_card_text4{
+    margin: 5px 0 -2px 0;
+    padding-right: 97px;
+}
+
+.Admin_approval_card_text5{
+    margin: 5px 0 -2px 0;
+    padding-right: 125px;
+}
+
+.Admin_approval_card_text6{
+    margin: 5px 0 -2px 0;
+    padding-right: 74px;
+}
+
+.Admin_approval_card_text7{
+    margin: 5px 0 -2px 0;
+}
+
+.Admin_approval_card_text8{
+    margin: 5px 0 -2px 0;
+    padding: 0 75px 0 0;
+}
+
+
+.Admin_approval_button_center{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    margin: -15px 0 -15px 0;
+}
+
+.Admin_approval_button_margin{
+    margin:0px 30px 0 70px;
+}
+
+.Admin_approval_button_no{
+    width: 190px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 0 10px 0 0;
+    color: black;
+}
+
+.Admin_approval_button_ok{
+    width: 190px;
+    height: 35px;
+    background-color: 	#6666FF;
+    border-radius: 20px;
+}
+
+.Admin_approval_button_center .MuiStack-root{
+    margin-left: 10px;
+}
+
+.Admin_approval_width .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    max-width: 1000px;
+}
+
+.Admin_approval_card_data{
+    margin:-25px 0 -10px 0;
+}
+
+.Admin_approval_line{
+    margin: 15px 0 15px 0;
+}
+
+.Admin_approval_line2{
+    margin: -10px 0 15px 0;
+}
+
+@media screen and (max-width: 1024px) {
+	/* 1024px以下に適用されるCSS（タブレット用） */
+
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    .Admin_approval_width .css-ypiqx9-MuiDialogContent-root{
+        padding: 17px 0px;
+    }
+    .Admin_approval_title {
+        margin: 0 0 -10px -6px;
+    }
+    .Admin_approval_button_margin {
+        margin: -1px 0 0 0;
+    }
+    .Admin_approval_button_no {
+        width: 130px;
+    }
+    .Admin_approval_button_ok {
+        width: 130px;
+    }
+    .Admin_approval_card_text0 {
+        padding-right: 105px;
+    }
+    .Admin_approval_card_text4 {
+        padding-right: 85px;
+    }
+    .Admin_approval_card_text {
+        padding-right: 74px;
+    }
+    .Admin_approval_card_text6 {
+        padding-right: 62px;
+    }.Admin_approval_card_text8 {
+        margin: 5px 0 -2px 0;
+        padding: 0px 59px 0 0;
+    }
+    .Admin_approval_card_text8 {
+        padding: 0px 59px 0 0;
+    }
+    .Admin_approval_card_text {
+        /* margin: auto; */
+        width: 26%;
+    }
+    .Admin_approval_card_hrs {
+        width: 287px;
+    }
+    .Admin_approval_card_text {
+        padding-right: 20px;
+    }
+    .Admin_approval_card_text1 {
+        padding-right: 112px;
+    }
+    .css-1t5wrdm-MuiDataGrid-filterForm {
+        width: 372px;
+    }
+
+    .Admin_approval_button_center{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        margin: -11px 0 0 0;
+    }
+
+    .Admin_approval_button_no{
+        width: 100px;
+        height: 25px;
+        border-radius: 20px;
+        margin: 0 10px 0 0;
+        color: black;
+    }
+    
+    .Admin_approval_button_ok{
+        width: 100px;
+        height: 25px;
+        background-color: 	#6666FF;
+        border-radius: 20px;
+    }
+}

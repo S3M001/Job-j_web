@@ -1,0 +1,126 @@
+.detail_width {
+    width: 430px;
+}
+
+.detail_modal_button {
+    width: 150px;
+}
+
+.detail_titles {
+    width: 100%;
+    margin: -15px 0 -15px 0px;
+}
+
+.detail_title_top {
+    margin: 0;
+}
+
+.detail_title {
+    margin: 0;
+}
+
+.detail_title_now1 {
+    margin: 0px 90px 0px 20px;
+}
+
+.detail_title_now2 {
+    height: 20px;
+    width: 55px;
+    text-align: center;
+    background-color: #5BFF7F;
+    border-radius: 20px;
+    color: white;
+}
+
+.detail_card {
+    width: 85%;
+    margin: 15px auto;
+    padding: 20px;
+    background-color: #efefefef;
+    border-radius: 5px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.detail_card_title {
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.detail_card_text {
+    margin: 5px 0 -2px 0;
+    padding-left: 70px;
+}
+
+.detail_button_center {
+    width: 100%;
+    display: flex;
+    margin: 0 0 0 10px;
+}
+
+.detail_button_no {
+    width: 190px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 0 10px 0 0;
+    color: black;
+}
+
+.detail_button_ok {
+    width: 190px;
+    height: 35px;
+    background-color: #6666FF;
+    border-radius: 20px;
+}
+
+.detail_days {
+    text-align: right;
+    margin: -20px 75px 0 0;
+    color: red;
+}
+
+.detail_title_flex {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.detail_title_now2 {
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.detail_button_center .MuiStack-root {
+    margin-left: 10px;
+
+}
+
+@media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 480px) {
+
+    /* 480px以下に適用されるCSS（タブレット用） */
+    .detail_width {
+        width: 326px;
+    }
+
+    .detail_title {
+        margin: 1px 13px -2px 0;
+    }
+
+    .detail_title_now1 {
+        margin: 0px 0px -10px 20px;
+    }
+
+    .detail_days {
+        text-align: right;
+        margin: -20px 55px 0 0;
+        color: red;
+    }
+
+    .detail_card_text {
+        margin: 5px 0 -2px 0;
+        padding-left: 50px;
+    }
+}

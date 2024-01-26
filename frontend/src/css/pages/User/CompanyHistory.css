@@ -1,0 +1,86 @@
+.companyhistory-flex{
+    display: flex;
+}
+.companyhistory-card-flex{
+    display: flex;
+    /* margin-left: 70px;
+    margin-top: 50px; */
+    width: 85%;
+    /* padding-left: 230px; */
+    margin: 50px 45px 0px 300px;
+}
+
+.companyhistory_all_cards{
+    margin: 0 35px 0 35px;
+}
+
+.card_text_font{
+    font-size: 15px;
+    margin: 11px 0 24px 10px;
+}
+
+.companyhistory_all_cards .css-q57pnn-MuiGrid-root .MuiGrid-item{
+    padding-left: 142px;
+    padding-right: 215px;
+}
+
+.companyhistory-phone2{
+    display: none;
+}
+
+.CompanyHistory-ApplyCom .css-8orb8j-MuiSwitch-root {
+    position: absolute;
+    top: 70px;
+    right: 29px;
+}
+
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 1024px) {
+	/* 1024px以下に適用されるCSS（タブレット用） */
+    .companyhistory-flex{
+        display: flex;
+    }
+    .companyhistory-card-flex{
+        display: flex;
+        /* margin-left: 70px;
+        margin-top: 50px; */
+        width: 85%;
+        /* padding-left: 230px; */
+        margin: 50px 45px 0px 300px;
+    }
+    
+    .companyhistory_all_cards{
+        margin: 0 35px 0 35px;
+    }
+    
+    .card_text_font{
+        font-size: 15px;
+        margin: 11px 0 24px 10px;
+    }
+
+    .companyhistory_all_cards .css-q57pnn-MuiGrid-root .MuiGrid-item{
+        padding: 71px 7px 0 45px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    .companyhistory-phone{
+        display: none;
+    }
+
+    .companyhistory-phone2{
+        display:block;
+    }
+    
+    .companyhistory-card-flex {
+        display: flex;
+        width: 85%;
+        /* padding-left: 230px; */
+        margin: 66px 50px 0px -5px;
+    }
+}

@@ -1,0 +1,251 @@
+.confirmation_width{
+    width:580px;
+}
+
+.confirmation_title{
+    margin: 0 0 0 0;
+}
+
+.confirmation_card_label{
+    margin: 0 158px 0 0;
+}
+
+.confirmation_card_label2{
+    margin: 0 150px 0 0;
+}
+
+.confirmation_card_label3{
+    margin: 0 135px 0 0;
+}
+
+.confirmation_card_label4_none{
+    display: none;
+}
+
+.confirmation_card_label5{
+    margin: 0 130px 0 0;
+}
+
+.confirmation_card_label6{
+    margin: 0 147px 0 0;
+}
+
+.confirmation_card_label7{
+    margin: 0 42px 0 0;
+    width: 170px;
+}
+
+.confirmation_card_label8{
+    margin: 0 28px 0 0;
+    width: 170px
+}
+
+.confirmation_card_label9_none{
+    display: none;
+}
+
+.confirmation_card_label10_none{
+    display: none;
+}
+
+.confirmation_card_label11{
+    margin: 0 42px 0 0;
+    width: 170px;
+}
+
+.confirmation_card_text_name{
+    margin: -3px 0 -25px 0;
+}
+
+
+.confirmation_card_text_name3{
+    margin: -1px 0 -25px 0;
+}
+
+.confirmation_card_text_name4{
+    margin: 25px 0 20px 0;
+}
+.confirmation_card_text_username{
+    margin: 0 0 -25px 0;
+}
+
+.confirmation_card_text_none{
+    margin: 0 0 -25px 0;
+    display: none;
+}
+
+.confirmation_card_hrs{
+    margin: -10px 0 15px 0;
+}
+
+.confirmation_card_hrs2{
+    margin: -10px 0 15px 0;
+}
+
+.confirmation_card_title{
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+.confirmation_card_texts{
+    display: flex;
+}
+
+.confirmation_card_texts2 {
+    display: flex;
+    padding: 0 0 5px 0;
+}
+
+
+.confirmation_button_center{
+    width: 100%;
+    margin: -40px 0 0 15px;
+}
+
+.confirmation_button_margin{
+    margin:0px 30px 0 70px;
+}
+
+.confirmation_button_no{
+    width: 190px;
+    height: 35px;
+    border-radius: 20px;
+    margin: 0 10px 0 0;
+    color: black;
+}
+
+.confirmation_button_ok{
+    width: 190px;
+    height: 35px;
+    background-color: 	#6666FF;
+}
+.confirmation_button_next{
+    width: 190px;
+    height: 35px;
+    background-color: 	#6666FF;
+}
+.confirmation_days{
+    text-align: right;
+    margin: -20px 75px 0 0;
+    color:red;
+}
+
+.confirmation_button_center .MuiStack-root{
+    margin-left: 10px;
+}
+
+.confirmation_width .css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+    max-width: 1000px;
+}
+
+
+@media screen and (max-width: 1024px) {
+	/* 1024px以下に適用されるCSS（タブレット用） */
+
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    .confirmation_width{
+        width:326px;
+    }
+    .confirmation_width2 .MuiDialogTitle-root+.css-ypiqx9-MuiDialogContent-root {
+        padding-top: 0;
+        height: 545px;
+    }
+
+    .confirmation_width .MuiDialogTitle-root+.css-ypiqx9-MuiDialogContent-root {
+        padding-top: 0;
+        height: 575px;
+    }
+
+
+
+    .confirmation_card{
+        height: 545px;
+    }
+
+    .confirmation_card_text_name {
+        margin: 0 0 -25px 0;
+    }
+
+    .confirmation_card_text_name2{
+        margin: 20px 0 10px 0;
+    }
+
+    .confirmation_card_text_name3{
+        margin: 40px 0 -25px 0;
+    }
+
+    .confirmation_card_text_name4{
+        margin: 25px 0 20px 0;
+    }
+
+    .confirmation_card_label {
+        margin: 0px 110px 0 0;
+    }
+
+    .confirmation_card_label2 {
+        margin: 0 103px 0 0;
+    }
+
+    .confirmation_card_label3 {
+        margin: 0 0 0 0;
+    }
+
+    .confirmation_card_label4{
+        display: none;
+    }
+    
+    .confirmation_card_label4_none{
+        display: block;
+    }
+
+    .confirmation_card_label5 {
+        margin: 0px 82px 0 0;
+    }
+
+    .confirmation_card_label6 {
+        margin: 0 0 0 0;
+    }
+
+    .confirmation_card_label7 {
+        margin: 0px 10px 0 0;
+        width: 150px;
+    }
+
+    .confirmation_card_label8 {
+        margin: 0 0 0 0;
+        width: 170px;
+    }
+
+    .confirmation_card_label9{
+        display: none;
+    }
+
+    .confirmation_card_label9_none{
+        display: block;
+    }
+
+    .confirmation_card_label10{
+        display: none;
+    }
+
+    .confirmation_card_label10_none{
+        display: block;
+    }
+
+    .confirmation_card_label11{
+        margin: 0 42px 0 0;
+        width: 170px;
+    }
+
+    .confirmation_button_center {
+        width: 100%;
+        margin: -80px 0 0 15px;
+    }
+}

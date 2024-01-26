@@ -1,0 +1,96 @@
+/* .Admin_report_confitmation_label{
+    margin:5px 155px 0 0;
+} */
+.Admin_report_confitmation_label{
+    margin:5px 144px 0 0;
+}
+
+.Admin_report_confitmation_label2{
+    margin:5px 0 0 7px;
+}
+
+.Admin_report_confitmation_label3{
+    display: none;
+}
+
+/* .Admin_report_confitmation_label4{
+    margin: -30px 120px 0 0;
+} */
+
+.Admin_report_confitmation_label4{
+    margin: -30px 154px 0 0;
+}
+
+.Admin_report_confitmation_label5{
+    margin: -30px 0 0 0;
+}
+
+.Admin_report_confitmation_label6{
+    margin:5px 135px 0 0;
+}
+
+.Admin_report_confitmation_text{
+    margin: 25px 0 -25px 0;
+}
+
+.Admin_report_confitmation_text2{
+    margin: -10px 0 -25px 0;
+}
+
+.Admin_report_confitmation_hr{
+    /* margin: -10px 0 -10px 0; */
+    margin: -10px 0 10px 0;
+}
+
+.Admin_report_confitmation_hr2 {
+    margin: -6px 0 15px 0;
+}
+
+.Admin_report_confitmation_hr3{
+    margin: 15px 0 15px 0;
+}
+
+.Admin_report_confitmation_button_center{
+    width: 100%;
+    margin: -40px 0 0 15px;
+}
+
+@media screen and (max-width: 1024px) {
+	/* 1024px以下に適用されるCSS（タブレット用） */
+
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 480px) {
+    .Admin_report_confitmation_label {
+        margin: 5px 105px 0 0;
+    }
+
+    .Admin_report_confitmation_label3{
+        display: block;
+    }
+
+    .Admin_report_confitmation_label2{
+        display: none;
+    }
+
+    .Admin_report_confitmation_text3{
+        margin: -10px 0 -25px 0;
+    }
+
+    .Admin_report_confitmation_label4{
+        margin: -30px 105px 0 0;
+    }
+
+    .Admin_report_confitmation_label6{
+        margin:5px 0 0 0;
+    }
+
+    .Admin_report_confitmation_button_center {
+        width: 100%;
+        margin: -15px 0 0 15px;
+    }
+}

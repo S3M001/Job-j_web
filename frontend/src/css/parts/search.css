@@ -1,0 +1,202 @@
+.left{
+    width: 15%;
+	height: 100%;
+	background-color: #F5F5F5;
+	color: black;
+    position: fixed; /* 要素の位置を固定する */
+    left: 0; /* 基準の位置を画面の一番右に指定する */
+    width: 290px;
+}
+
+.search-title{
+    padding-left: 40px;
+}
+
+.search-title h6{
+    color:#C0C0C0;
+    margin:-10px 0 0 0;
+}
+
+.search-select{
+    padding-left: 40px;
+    margin: 0 0 0 0px;
+}
+
+.search-select-items{
+    /* margin:10px 0 3px 0; */
+    margin: -18px 0px 13px 20px;
+}
+
+.search-select-items2{
+    margin:10px 0 3px 0;
+}
+
+.search-select-items-second{
+    margin:10px 0 3px 0;
+}
+
+.search-keyword{
+    margin-top: 7px;
+}
+
+.search-text{
+    padding-left: 40px;
+    margin: -20px 0 15px 0;
+}
+
+.search-button{
+	text-decoration: none;
+	width: 160px;
+	font-weight: bold;
+	border: 2px solid #27acd9;
+	color: #27acd9;
+	transition: 0.5s;
+}
+
+.search-button:hover {
+	color: #fff;
+	background: #27acd9;
+}
+
+.search-last{
+    padding-left: 40px;
+    margin: -13px 0 0 0;
+}
+
+.search-last-numbers{
+    color:red;
+}
+
+.search-select-checkbox{
+    margin: 85px 10px 0 100px;
+}
+
+.MuiFormControlLabel-root.MuiFormControlLabel-labelPlacementEnd.search-select-checkbox2.css-j204z7-MuiFormControlLabel-root{
+    /* margin: -3px 0 -3px -15px; */
+    margin: -10px 0 -6px -35px;
+}
+
+
+@media screen and (max-width: 1024px) {
+	/* 1024px以下に適用されるCSS（タブレット用） */
+    .left{
+        width: 15%;
+        height: 100%;
+        background-color: #F5F5F5;
+        color: black;
+        position: fixed; /* 要素の位置を固定する */
+        left: 0; /* 基準の位置を画面の一番右に指定する */
+        width: 215px;
+        font-size: 20px;
+    }
+
+    .search-title{
+        padding-left: 25px;
+    }
+    
+    .search-select{
+        padding-left: 25px;
+        margin: 0 0 0 0px;
+    }
+    
+    .search-text{
+        padding-left: 25px;
+        margin: -20px 0 15px 0;
+    }
+    
+    
+    .search-last{
+        padding-left: 12px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+
+@media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+    .left{
+        width: 100%;
+        height: 80%;
+        background-color: #F5F5F5;
+        color: black;
+        position: fixed; /* 要素の位置を固定する */ 
+        margin: 60px 0 0 0;
+    }
+
+    .search-title{
+        padding-left: 120px;
+    }
+    
+    .search-title h6{
+        color:#C0C0C0;
+        margin:-30px 0 0 0;
+    }
+    
+    .search-select{
+        padding-left: 90px;
+        margin: 0 0 0 0px;
+    }
+    
+    .search-select-flexs{
+        display: flex;
+    }
+    .search-select-flex{
+        margin: -10px 0 0 0;
+    }
+
+    .search-select-flex2{
+        margin: -10px 0 0 80px;
+    }
+
+    .search-select-items{
+        margin:10px 60px 3px -20px;
+    }
+
+    .search-select-items2{
+        margin: 10px 0px 5px -20px;
+    }
+
+    .search-select-items-margin{
+        margin: 0 0 -25px 0;
+    }
+    
+    .search-select-items-second{
+        margin:10px 0 3px 0;
+    }
+    
+    .search-keyword{
+        margin-top: 7px;
+        margin-left: -21px;
+    }
+    
+    .search-text{
+        padding-left: 69px;
+        margin: -30px 0 10px 0;
+    }
+    
+    .search-button{
+        text-decoration: none;
+        width: 160px;
+        font-weight: bold;
+        border: 2px solid #27acd9;
+        color: #27acd9;
+        transition: 0.5s;
+        margin: 0 0 0 25px;
+    }
+    
+    .search-button:hover {
+        color: #fff;
+        background: #27acd9;
+    }
+    
+    .search-last{
+        padding-left: 95px;
+    }
+    
+    .search-last-numbers{
+        color:red;
+    }
+}

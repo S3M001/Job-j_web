@@ -1,0 +1,154 @@
+
+.TopVarAdmin-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background: #d0d0d094;
+    color: rgb(0, 0, 0);
+    background:#fff; 
+    box-shadow:0 2px 8px rgba(30,30,80,.3);
+    /* left:0; */
+    line-height:1;
+    position:fixed;
+    /* top:0;
+    width:100%; */
+
+    z-index:1000;
+
+    /* text-align:center; */
+    padding:0.2rem;
+}
+.TopVarAdmin-nav ul {
+    display: flex;
+}
+.TopVarAdmin-nav li {
+    list-style: none;
+}
+.TopVarAdmin-nav li a{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.TopVarAdmin-nav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 18px;
+    font-size: 10px;
+}
+.TopVarAdmin-TitleFlex{
+    display: flex;
+}
+.TopVarAdmin-Title{
+    margin-left: 25px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.TopVarAdmin-AppName{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.TopVarAdmin-TitleFlex a {
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 18px;
+    font-size: 10px;
+}
+.AdminHamburger{
+    display: none;
+}
+.AdminHamburgerBox{
+    width: 250px;
+}
+    .AdminHambugerButton{
+    height: 100px;
+    text-decoration: none;
+    display: flex !important;
+    font-weight: bold;
+    border-bottom: solid 1px #000000;
+    border-top: solid 1px #000000;
+}
+.AdminHambugerText{
+color: black;
+}
+.TopVarAdmin-Hanburger-Job√j{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 18px;
+    font-size: 20px;
+}
+.TopVarAdmin-Job√j{
+    display: block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 18px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.TopVarAdmin-Title{
+    font-size: 20px;
+}
+a{
+    color: black;
+}
+a,a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    text-decoration: none !important;
+    opacity: 0.5 ;
+    color: black;
+}
+.underline {
+    background-color: #9494ff;
+    margin-top: 10px;
+    height: 4px;
+    width: 125%;
+}
+/* .TopVarAdmin-border企業一覧 {
+    background-color: #9494ff;
+    height: 4px;
+    width: 47px;
+    position: absolute;
+    right: 135px;
+    top: 53px;
+}
+.TopVarAdmin-border申請一覧 {
+    background-color: #9494ff;
+    height: 4px;
+    width: 47px;
+    position: absolute;
+    right: 82px;
+    top: 53px;
+} */
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+@media screen and (max-width: 600px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    
+    .TopVarAdminDelete{
+        display: none !important;
+    }
+    .AdminHamburger{
+        display: block !important;
+    }
+    .TopVarAdmin-nav a {
+        display: block;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        margin-right: 9px;
+        font-size: 9px;
+    }
+    .TopVarAdmin-Job√j{
+        display: none !important;
+    }
+    .TopVarAdmin-border {
+        display: none !important;
+    }
+}

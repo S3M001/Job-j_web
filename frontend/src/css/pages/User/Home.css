@@ -1,0 +1,123 @@
+.HomePage_msgFlex a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.HomePage_main{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-top: 10px;
+}
+
+.HomePage_scheduler{
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.HomePage_sideVar{
+    width: 23.5%;
+    height: 586px;
+    padding-left: 18px;
+    background-color: #00000005;
+    border-radius: 30px;
+    margin: 35px 25px 0 15px;
+    border-style: ridge;
+}
+
+.HomePage_msgFlex p{
+    margin:3px;
+}
+
+.HomePage_msgBox{
+    border: 3px;
+}
+
+.HomePage_p{
+    color: black;
+}
+
+.HomePage_dashboard{
+    margin-top: 35px;
+    margin-left: 0px;
+}
+
+.HomePage_narrowingdown_parts{
+    margin: -15px 0 0 0;
+}
+
+.scroll{
+    height: 485px;
+    overflow-y: scroll;
+
+}
+
+.scroll::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.scroll::-webkit-scrollbar {
+    width: 10px;
+}
+
+.HomePage_nodata{
+    text-align: center;
+}
+
+.HomePage_link{
+    height: 30px;
+}
+
+.HomePage_flex{
+    display: flex;
+    cursor: pointer;
+}
+.HomePage_flex:hover{
+    opacity: 0.5;
+}
+
+.Home_DataGrid_cursor{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 959px) {
+	/* 959px以下に適用されるCSS（タブレット用） */
+}
+@media screen and (max-width: 480px) {
+	/* 480px以下に適用されるCSS（スマホ用） */
+    .HomePage_main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        margin-top: 10px;
+    }
+    .HomePage_scheduler {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+        text-combine-upright: all;
+    }
+
+    .TopVarUser-Title{
+        margin-left: -3px;
+        font-size: 13px;
+        margin-top: 25px;
+    }
+    .HomePage_sideVar{
+        width: 86%;
+        padding-left: 18px;
+    }
+
+    .HomePage_scheduler .css-13ebml7 .css-12aktbw .css-1rlrl7 .rs__cell:not(.rs__time){
+        min-width: 54px;
+    }
+    
+    .HomePage_scheduler .css-13ebml7 .css-12aktbw .css-l3bzu8 .rs__cell:not(.rs__time) {
+        min-width: 47px;
+    }
+}
